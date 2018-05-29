@@ -14,10 +14,15 @@
     width: 700px;
     height: 500px;
     box-shadow: 0px 0px 10px 1px black;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(255, 255, 255);
     margin: auto;
     position: relative;
     overflow: hidden;
+}
+.playeroneresult, playertworesult {
+    font-size: 0.6cm;
+    text-shadow: black 1px 1px 10px ;
+    color: white;
 }
 .pod {
     margin: auto;
@@ -42,43 +47,45 @@
     color: darkred;
     text-align: center;
 }
+.point {
+    width: 20px;
+    height: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-shadow:blue 0px 0px 20px 2px,inset 0px 0px 10px 0px lightblue;
+    border-radius:20px;
+    x: 0, y: 0;
+  
+}
 .playerone {
     width: 50px;
     height: 50px;
     background-color: darkgreen;
-    top: 25;
-    left: 25;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    transition: 0.1s linear;
-    border-radius: 30px;
-    x: 0, y: 0;
-    border:1px solid black;
-  
-}
-.playertwo {
-    width: 50px;
-    height: 50px;
-    background-color: darkred;
     bottom: -25;
     right: -25;
     position: absolute;
     transform: translate(-50%,-50%);
     transition: 0.1s linear;
     border-radius: 30px;
-    border: 1px solid black;
     x: 0, y: 0;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 50px;
 }
-.playertwoX {
+.playertwo {
     width: 50px;
     height: 50px;
     background-color: darkred;
-    bottom: 0;
-    right: 0;
+    top: 25;
+    left: 25;
+    
     position: absolute;
     transform: translate(-50%,-50%);
     transition: 0.1s linear;
     border-radius: 30px;
     border: 1px solid black;
     x: 0, y: 0;
+    text-align: center;
+    line-height: 50px;
 }
