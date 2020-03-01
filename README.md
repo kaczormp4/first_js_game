@@ -1,5 +1,6 @@
 # MY FIRST GAME IN JS>CSS>HTML
 <h2>Hello everybody</h2><br>
+ONLY GOOGLE CHROME
 <br>
 check out my first game<br>
 ENJOY!!!
